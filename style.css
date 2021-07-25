@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding:0%;
+}
+
+
+header {
+    background-color: #222222;
+    width: 1024px;
+    height: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    width: 284px;
+    height: 19px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: #F3F3F3;
+    align-items: center;
+    height: 100%;
+        
+} 
+.logo {
+    position: relative;
+    width: 234px;
+    height: 80px;
+    left: 20px;
+    top: 10px;
+}
+.delivery {
+    background-image: url(img/delivery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    border-radius: 5px;
+}
+.rojo {
+    color: red;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.rojo-blanco {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.blanco {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+.caja2 {
+    position: absolute;
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    top: 135px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.podio {
+    position: relative;
+    top: 26px;
+    left: 160px;
+}
+.top5 {    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+    position: relative;
+    top: 90px;
+    right: 100px;    
+}
+.lista-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+ol li {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+footer {
+    background-color: #222222;
+    width: 1024px;
+    height: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 520px;
+    align-items: center;
+}
+.logo2  {
+    width: 212px;
+    height: 80px;
+    position: relative;
+    right: 42px;
+}
+.nav2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: column;    
+    margin-left: 20px;
+    list-style: none;
+}
+.nav2 li {
+    margin-top: 12px ;
+} 
